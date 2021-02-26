@@ -17,5 +17,9 @@ Button(text="3",fg="black",bg="yellow").grid(row=4,column=0)
 Button(text="2",fg="black",bg="yellow").grid(row=4,column=1)
 Button(text="1",fg="black",bg="yellow").grid(row=4,column=2)
 Button(text="c",fg="black",bg="yellow").grid(row=1,column=0)
-
+"""add operators """
+Button(text="/",fg="black",bg="yellow").grid(row=2,column=3)
+Button(text="*",fg="black",bg="yellow").grid(row=3,column=3)
+Button(text="-",fg="black",bg="yellow").grid(row=4,column=3)
+Button(text="+",fg="black",bg="yellow").grid(row=5,column=3)
 win.mainloop()
