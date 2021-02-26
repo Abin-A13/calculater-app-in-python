@@ -22,5 +22,9 @@ Button(text="/",fg="dark red",bg="light grey").grid(row=2,column=3)
 Button(text="*",fg="dark red",bg="light grey").grid(row=3,column=3)
 Button(text="-",fg="dark red",bg="light grey").grid(row=4,column=3)
 Button(text="+",fg="dark red",bg="light grey").grid(row=5,column=3)
+"""signes add"""
+Button(text="=",fg="white",bg="dark red").grid(row=5,column=2)
+Button(text=".",fg="black",bg="yellow").grid(row=5,column=1)
+Button(text="0",fg="black",bg="yellow").grid(row=5,column=0)
 
 win.mainloop()
